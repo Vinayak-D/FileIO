@@ -27,6 +27,8 @@ int main() {
 		sum = x[j] + y[j];
 	}
 
+	int y[2] = { 2, 4 };
+
 	cout << "Dot Product is: " << sum << endl;;
 	//note: If I said int sum it will be 5 (not 5.5)
 	//If I said int (y) and float sum, it will be....5
